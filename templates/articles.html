@@ -1,0 +1,96 @@
+{% extends "section.html" %} {% block content %}
+<main class="main">
+  <h1>Article</h1>
+  <details class="recent" open>
+    <summary><h2 class="no-margin">最近发布：</h2></summary>
+    <ol class="cards">
+      {% set recent_pages = section.pages | sort(attribute="date", reverse=true) %} {% for page in recent_pages | slice(start=0, end=5) %}
+      <li class="card">
+        <article class="profile">
+          <header>
+            <h4 class="no-margin">{{ page.title }}</h4>
+            <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
+          </header>
+          <p>{{ page.description | safe }}</p>
+          <footer><a href="{{ page.permalink }}">继续阅读>>></a></footer>
+        </article>
+      </li>
+      {% endfor %}
+    </ol>
+  </details>
+
+  <details class="tags" open>
+    <summary><h2 class="no-margin">按<span>标签</span>查看：</h2></summary>
+    {% set tags = get_taxonomy(kind="tags") %}
+    <ol>
+      {% for tag in tags.items %}
+      <li>
+        <details>
+          <summary><h3 class="no-margin">{{ tag.name }}({{ tag.pages | length }})</h3></summary>
+          <ol class="cards">
+            {% for page in tag.pages %}
+            <li class="card">
+              <article class="profile">
+                <header>
+                  <h4 class="no-margin">{{ page.title }}</h4>
+                  <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
+                </header>
+                <p>{{ page.description | safe }}</p>
+                <footer><a href="{{ page.permalink }}">继续阅读>>></a></footer>
+              </article>
+            </li>
+            {% endfor %}
+          </ol>
+        </details>
+      </li>
+      {% endfor %}
+    </ol>
+  </details>
+
+  {# <details class="archive">
+    <summary><h2>按<span>归档</span>查看：</h2></summary>
+    <ol>
+      <li>
+        <details open>
+          <summary><h3>2024</h3></summary>
+          <ol class="cards">
+            <li class="card">
+              <article class="summary">
+                <header>
+                  <h4 >Plex 安装</h4>
+                  <time>2024-01-17</time>
+                </header>
+                <p>这是一段简介</p>
+                <footer><a href="#" target="_blank" rel="noopener noreferrer">继续阅读>>></a></footer>
+              </article>
+            </li>
+            <li class="card">
+              <article class="summary">
+                <header>
+                  <h4>Plex 安装</h4>
+                  <time>2024-01-17</time>
+                </header>
+                <p>这是一段简介</p>
+                <footer><a href="#" target="_blank" rel="noopener noreferrer">继续阅读>>></a></footer>
+              </article>
+            </li>
+            <li class="card">
+              <article class="summary">
+                <header>
+                  <h4>Plex 安装</h4>
+                  <time>2024-01-17</time>
+                </header>
+                <p>
+                  这是一段简介这里是隐藏的内容，点击标题可以显示或隐藏。这里是隐藏的内容，点击标题可以显示或隐藏。这里是隐藏的内容，点击标题可以显示或隐藏。这里是隐藏的内容，点击标题可以显示或隐藏。
+                </p>
+                <footer><a href="#" target="_blank" rel="noopener noreferrer">继续阅读>>></a></footer>
+              </article>
+            </li>
+          </ol>
+        </details>
+      </li>
+    </ol>
+  </details> #}
+</main>
+
+{% endblock content %}

@@ -1,13 +1,19 @@
 # The URL the site will be built for
 base_url = "https://elowen.life"
 
-theme = "hook"
+title = "Elowen"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
+
+taxonomies = [
+  { name = "tags", feed = true, paginate_by = 50 },
+  { name = "news_tags", feed = true, paginate_by = 50 },
+  { name = "release-year", feed = true, paginate_by = 50 },
+]
 
 [markdown]
 # Whether to do syntax highlighting
@@ -19,5 +25,9 @@ highlight_code = true
 links = [
     { title = "Mail", href = "mailto:luoyyuan69@gmail.com" },
     { title = "GitHub", href = "https://github.com/LYingYuan" },
-    { title = "LinkedIn", href = "https://linkedin.com" }
+    { title = "LinkedIn", href = "https://linkedin.com" },
+    { title = "𝕏", href = "https://x.com/" },
 ]
+
+
+

@@ -1,7 +1,8 @@
 +++
 title = "News"
 sort_by = "date"
-extra.in_header = true
+template = "news.html"
+page_template = "page.html"
 +++
 
 这里是 News
