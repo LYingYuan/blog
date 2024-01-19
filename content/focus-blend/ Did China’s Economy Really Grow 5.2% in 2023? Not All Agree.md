@@ -1,5 +1,5 @@
 +++
-title = "2023 年中国经济真的增长 5.2% 吗？并非所有人都同意"
+title = "Did China’s Economy Really Grow 5.2% in 2023? Not All Agree"
 date = 2024-01-18
 [extra]
 original_url = "https://www.bloomberg.com/news/articles/2024-01-18/did-china-s-economy-really-grow-5-2-in-2023-not-all-agree"
