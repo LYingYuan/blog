@@ -11,8 +11,7 @@ build_search_index = true
 
 taxonomies = [
   { name = "tags", feed = true, paginate_by = 50 },
-  { name = "news_tags", feed = true, paginate_by = 50 },
-  { name = "release-year", feed = true, paginate_by = 50 },
+  { name = "focus_blend_tags", feed = true, paginate_by = 50 },
 ]
 
 [markdown]

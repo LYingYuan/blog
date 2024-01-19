@@ -1,3 +1,6 @@
 {
-  "cSpell.words": ["monalisa"]
+  "cSpell.words": ["monalisa"],
+  "[markdown]": {
+    "editor.quickSuggestions": true
+  }
 }

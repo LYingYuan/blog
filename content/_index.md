@@ -11,7 +11,7 @@ template = "index.html"
 
 [Now](/now) 里记录了我最近在做什么
 
-我关注的新闻或话题可以在 [News](/news) 中找到
+我关注了些什么可以在 [Focus Blend](/focus-blend) 中找到
 
 [Thinking](/thinking) 里有我探索这个世界时发出的疑问</p>
 
