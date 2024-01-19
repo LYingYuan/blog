@@ -1,7 +1,7 @@
 +++
 title = "Thinking"
 sort_by = "date"
-template = "section.html"
+template = "thinking.html"
 page_template = "page.html"
 +++
 

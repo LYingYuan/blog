@@ -1,0 +1,18 @@
+{% extends "section.html" %} {% block content %}
+<main class="main">
+  <h1>Thinking</h1>
+  {% set all_pages = section.pages %} {% set recent_pages = all_pages | sort(attribute="date") | reverse %}
+  <ol class="cards">
+    {% for page in recent_pages %}
+    <li class="card">
+      <article class="profile thinking">
+        {{ page.content | safe }}
+        <footer>
+          <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
+        </footer>
+      </article>
+    </li>
+    {% endfor %}
+  </ol>
+</main>
+{% endblock content %}

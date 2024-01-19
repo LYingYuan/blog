@@ -260,6 +260,18 @@ details > summary > h3 {
   color: var(--meta-data-color);
 }
 
+.thinking {
+  position: relative;
+}
+.thinking > p:first-child {
+  margin-top: 0;
+}
+.thinking > footer {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
 @media (max-width: 850px) {
   .main {
     border: none;
