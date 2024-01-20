@@ -1,7 +1,8 @@
 {% extends "base.html" %} {% block title %} {{ config.title }} | {{section.title}} {% endblock title %} {% block description %}{{ section.description | default(value=config.description) }}{% endblock
 description %} {% block content %}
 <main class="main">
-  <h1>{{ section.title }}</h1>
+  <header><h1>{{ section.title }}</h1><p class="last-update">上次更新：<time>{{ section.extra.update_time | date(format="%Y-%m-%d %H:%M") }}</time></p>
+  </header>
   {{ section.content | safe }}
 </main>
 

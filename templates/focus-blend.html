@@ -1,6 +1,6 @@
 {% extends "section.html" %} {% block content %}
 <main class="main">
-  <h1>Focus Blend</h1>
+  <header><h1>Focus Blend</h1></header>
   <details class="recent" open>
     <summary><h2 class="no-margin">最近关注：</h2></summary>
     {% set all_pages = section.pages %} {% set recent_pages = all_pages | sort(attribute="date") | reverse %}

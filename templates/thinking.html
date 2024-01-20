@@ -1,6 +1,6 @@
 {% extends "section.html" %} {% block content %}
 <main class="main">
-  <h1>Thinking</h1>
+  <header><h1>{{ section.title }}</h1></header>
   {% set all_pages = section.pages %} {% set recent_pages = all_pages | sort(attribute="date") | reverse %}
   <ol class="cards">
     {% for page in recent_pages %}

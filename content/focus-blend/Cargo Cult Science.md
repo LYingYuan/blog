@@ -1,11 +1,11 @@
 +++
-title = 'Cargo Cult Science'
-date = 2024-01-19
+title = "Cargo Cult Science"
+date = 2024-01-19T17:30:34Z
 [extra]
-original_url = 'https://en.wikipedia.org/wiki/Cargo_cult_science'
-source = 'Wiki ChatGPT'
+original_url = "https://en.wikipedia.org/wiki/Cargo_cult_science"
+source = "Wiki, ChatGPT"
 [taxonomies]
-focus_blend_tags = ['Term']
+focus_blend_tags = ["Term"]
 +++
 
 "Cargo Cult Science"是一个由著名物理学家理查德·费曼提出的概念，用来描述一种伪科学现象。这个概念最初出现在费曼 1974 年在加州理工学院的毕业典礼上的演讲中。他通过这个词来比喻那些形式上像科学研究但实际上缺乏科学方法和严谨性的行为。

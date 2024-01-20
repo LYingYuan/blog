@@ -17,28 +17,34 @@
         <loc>https://elowen.life/focus-blend-tags/</loc>
     </url>
     <url>
+        <loc>https://elowen.life/focus-blend-tags/asia/</loc>
+    </url>
+    <url>
+        <loc>https://elowen.life/focus-blend-tags/asia/page/1/</loc>
+    </url>
+    <url>
         <loc>https://elowen.life/focus-blend-tags/attitude/</loc>
     </url>
     <url>
         <loc>https://elowen.life/focus-blend-tags/attitude/page/1/</loc>
     </url>
     <url>
-        <loc>https://elowen.life/focus-blend-tags/bloomberg/</loc>
+        <loc>https://elowen.life/focus-blend-tags/game/</loc>
     </url>
     <url>
-        <loc>https://elowen.life/focus-blend-tags/bloomberg/page/1/</loc>
-    </url>
-    <url>
-        <loc>https://elowen.life/focus-blend-tags/china/</loc>
-    </url>
-    <url>
-        <loc>https://elowen.life/focus-blend-tags/china/page/1/</loc>
+        <loc>https://elowen.life/focus-blend-tags/game/page/1/</loc>
     </url>
     <url>
         <loc>https://elowen.life/focus-blend-tags/life/</loc>
     </url>
     <url>
         <loc>https://elowen.life/focus-blend-tags/life/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://elowen.life/focus-blend-tags/news/</loc>
+    </url>
+    <url>
+        <loc>https://elowen.life/focus-blend-tags/news/page/1/</loc>
     </url>
     <url>
         <loc>https://elowen.life/focus-blend-tags/term/</loc>
@@ -53,29 +59,31 @@
         <loc>https://elowen.life/focus-blend-tags/topic/page/1/</loc>
     </url>
     <url>
-        <loc>https://elowen.life/focus-blend-tags/wsj/</loc>
-    </url>
-    <url>
-        <loc>https://elowen.life/focus-blend-tags/wsj/page/1/</loc>
-    </url>
-    <url>
         <loc>https://elowen.life/focus-blend/</loc>
     </url>
     <url>
         <loc>https://elowen.life/focus-blend/cargo-cult-science/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-19T17:30:34Z</lastmod>
     </url>
     <url>
         <loc>https://elowen.life/focus-blend/corporations-are-not-to-be-loved/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-19T17:30:09Z</lastmod>
     </url>
     <url>
         <loc>https://elowen.life/focus-blend/did-china-s-economy-really-grow-5-2-in-2023-not-all-agree/</loc>
-        <lastmod>2024-01-18</lastmod>
+        <lastmod>2024-01-18T11:20:38Z</lastmod>
+    </url>
+    <url>
+        <loc>https://elowen.life/focus-blend/the-alchemy-of-good-questions/</loc>
+        <lastmod>2024-01-20T17:04:22Z</lastmod>
+    </url>
+    <url>
+        <loc>https://elowen.life/focus-blend/you-xi-dai-gei-ni-de-cheng-chang-shi-shen-me/</loc>
+        <lastmod>2024-01-20T17:04:01Z</lastmod>
     </url>
     <url>
         <loc>https://elowen.life/focus-blend/zhong-guo-quan-li-fa-zhan-lu-se-chan-ye-yi-ci-ji-pi-ruan-de-jing-ji/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-19T17:04:27Z</lastmod>
     </url>
     <url>
         <loc>https://elowen.life/now/</loc>
@@ -94,30 +102,38 @@
     </url>
     <url>
         <loc>https://elowen.life/thinking/audience/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-19T16:23:54Z</lastmod>
+    </url>
+    <url>
+        <loc>https://elowen.life/thinking/emergy/</loc>
+        <lastmod>2024-01-20T17:49:12Z</lastmod>
     </url>
     <url>
         <loc>https://elowen.life/thinking/expression-method/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-19T16:23:54Z</lastmod>
     </url>
     <url>
         <loc>https://elowen.life/thinking/expression/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-19T16:23:54Z</lastmod>
     </url>
     <url>
         <loc>https://elowen.life/thinking/finalize-mission/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-19T16:23:54Z</lastmod>
+    </url>
+    <url>
+        <loc>https://elowen.life/thinking/modest/</loc>
+        <lastmod>2024-01-20T17:49:43Z</lastmod>
     </url>
     <url>
         <loc>https://elowen.life/thinking/need/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-19T16:23:54Z</lastmod>
     </url>
     <url>
         <loc>https://elowen.life/thinking/sleep/</loc>
-        <lastmod>2024-01-17</lastmod>
+        <lastmod>2024-01-17T08:55:25Z</lastmod>
     </url>
     <url>
         <loc>https://elowen.life/thinking/user-attention/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-19T16:23:54Z</lastmod>
     </url>
 </urlset>

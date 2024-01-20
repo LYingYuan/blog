@@ -1,12 +1,8 @@
 {% extends "base.html" %} {% block title %} {{ config.title }} | {{page.title}} {% endblock title %} {% block description %}{{ page.description | default(value=config.description) }}{% endblock
 description %} {% block content %}
 <main class="main">
-  <h1 >{{ page.title }}</h1>
-  <section class="article-meta">
-    <div class="time">
-      <time>2024-01-18</time>
-    </div>
-  </section>
+  <header><h1>{{ page.title }}</h1></header>
+  <!--  TODO meta  -->
   {{ page.content | safe}}
 </main>
 
