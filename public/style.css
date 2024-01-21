@@ -284,6 +284,7 @@ details > summary > h3 {
 @media (max-width: 850px) {
   .main {
     border: none;
+    min-height: 0;
   }
   .cards {
     padding: 0;

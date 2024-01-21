@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Elowen - Code Design</title>
+    <link rel="self" type="application/atom+xml" href="https://elowen.life/focus-blend-tags/code-design/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://elowen.life"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-21T19:19:52+00:00</updated>
+    <id>https://elowen.life/focus-blend-tags/code-design/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A 2024 Plea for Lean Software</title>
+        <published>2024-01-21T19:19:52+00:00</published>
+        <updated>2024-01-21T19:19:52+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://elowen.life/focus-blend/a-2024-plea-for-lean-software/"/>
+        <id>https://elowen.life/focus-blend/a-2024-plea-for-lean-software/</id>
+        
+        <content type="html" xml:base="https://elowen.life/focus-blend/a-2024-plea-for-lean-software/">&lt;p&gt;Quantity has a quality all of its own.&lt;&#x2F;p&gt;
+&lt;p&gt;数量本身就有一种质量。&lt;&#x2F;p&gt;
+&lt;p&gt;Many security problems are not so much bad code but more bad logic.&lt;&#x2F;p&gt;
+&lt;p&gt;许多安全问题并非源于糟糕的代码，而是源于错误的逻辑。&lt;&#x2F;p&gt;
+&lt;p&gt;Writing has been called the process by which you find out you don’t know what you are talking about. Actually doing stuff meanwhile is the process by which find out you also did not know what you were writing about.&lt;&#x2F;p&gt;
+&lt;p&gt;写作被称为是你发现自己不知道自己在说什么的过程。而实际上做事情则是你发现你甚至不知道你在写什么的过程。&lt;&#x2F;p&gt;
+&lt;p&gt;To Some, complexity equals power. (…) Increasingly, people seem to misinterpret complexity as sophistication, which is baffling - the incomprehensible should cause suspicion rather than admiration.&lt;&#x2F;p&gt;
+&lt;p&gt;对某些人来说，复杂性等同于力量。(...) 越来越多的人似乎将复杂性误解为精致，这令人困惑——难以理解的东西应该引起怀疑，而不是钦佩。&lt;&#x2F;p&gt;
+&lt;p&gt;Time pressure gradually corrupts an engineer’s standard of quality and perfection. It has a detrimental effect on people as well as products.&lt;&#x2F;p&gt;
+&lt;p&gt;时间压力逐渐腐蚀了工程师对质量和完美的标准。它对人和产品都有不良影响。&lt;&#x2F;p&gt;
+&lt;p&gt;The plague of software explosion is not a ’law of nature’. It is avoidable, and it is the software engineer’s task to curtail it.&lt;&#x2F;p&gt;
+&lt;p&gt;软件膨胀的灾难并非“自然法则”。它是可以避免的，削减它是软件工程师的任务。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

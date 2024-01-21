@@ -10,8 +10,8 @@
         <loc>https://elowen.life/article/</loc>
     </url>
     <url>
-        <loc>https://elowen.life/article/markdown/</loc>
-        <lastmod>2024-01-18</lastmod>
+        <loc>https://elowen.life/article/markdown-example/</loc>
+        <lastmod>2024-01-18T19:57:06Z</lastmod>
     </url>
     <url>
         <loc>https://elowen.life/focus-blend-tags/</loc>
@@ -27,6 +27,18 @@
     </url>
     <url>
         <loc>https://elowen.life/focus-blend-tags/attitude/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://elowen.life/focus-blend-tags/code-design/</loc>
+    </url>
+    <url>
+        <loc>https://elowen.life/focus-blend-tags/code-design/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://elowen.life/focus-blend-tags/cyber-security/</loc>
+    </url>
+    <url>
+        <loc>https://elowen.life/focus-blend-tags/cyber-security/page/1/</loc>
     </url>
     <url>
         <loc>https://elowen.life/focus-blend-tags/game/</loc>
@@ -62,6 +74,10 @@
         <loc>https://elowen.life/focus-blend/</loc>
     </url>
     <url>
+        <loc>https://elowen.life/focus-blend/a-2024-plea-for-lean-software/</loc>
+        <lastmod>2024-01-21T19:19:52Z</lastmod>
+    </url>
+    <url>
         <loc>https://elowen.life/focus-blend/cargo-cult-science/</loc>
         <lastmod>2024-01-19T17:30:34Z</lastmod>
     </url>
@@ -76,6 +92,14 @@
     <url>
         <loc>https://elowen.life/focus-blend/the-alchemy-of-good-questions/</loc>
         <lastmod>2024-01-20T17:04:22Z</lastmod>
+    </url>
+    <url>
+        <loc>https://elowen.life/focus-blend/the-politics-of-apple-s-airdrop-security-flaw/</loc>
+        <lastmod>2024-01-21T16:19:26Z</lastmod>
+    </url>
+    <url>
+        <loc>https://elowen.life/focus-blend/the-real-reason-you-re-paying-for-so-many-subscriptions/</loc>
+        <lastmod>2024-01-21T19:34:40Z</lastmod>
     </url>
     <url>
         <loc>https://elowen.life/focus-blend/you-xi-dai-gei-ni-de-cheng-chang-shi-shen-me/</loc>
@@ -121,12 +145,28 @@
         <lastmod>2024-01-19T16:23:54Z</lastmod>
     </url>
     <url>
+        <loc>https://elowen.life/thinking/heaven-will/</loc>
+        <lastmod>2024-01-21T15:48:29Z</lastmod>
+    </url>
+    <url>
+        <loc>https://elowen.life/thinking/love/</loc>
+        <lastmod>2024-01-21T15:43:51Z</lastmod>
+    </url>
+    <url>
+        <loc>https://elowen.life/thinking/moderation/</loc>
+        <lastmod>2024-01-21T15:35:18Z</lastmod>
+    </url>
+    <url>
         <loc>https://elowen.life/thinking/modest/</loc>
         <lastmod>2024-01-20T17:49:43Z</lastmod>
     </url>
     <url>
         <loc>https://elowen.life/thinking/need/</loc>
         <lastmod>2024-01-19T16:23:54Z</lastmod>
+    </url>
+    <url>
+        <loc>https://elowen.life/thinking/opportunity/</loc>
+        <lastmod>2024-01-21T15:51:04Z</lastmod>
     </url>
     <url>
         <loc>https://elowen.life/thinking/sleep/</loc>

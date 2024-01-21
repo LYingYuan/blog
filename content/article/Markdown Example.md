@@ -1,6 +1,6 @@
 +++
 title = "Markdown Example"
-date = 2024-01-18
+date = 2024-01-18T19:57:06Z
 author = "Elowen"
 description = "当前博客模板在各 Markdown 语句上的表现。"
 [taxonomies]
