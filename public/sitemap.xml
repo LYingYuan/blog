@@ -10,6 +10,10 @@
         <loc>https://elowen.life/article/</loc>
     </url>
     <url>
+        <loc>https://elowen.life/article/guan-yu-zhong-yong-zhi-dao-de-si-kao/</loc>
+        <lastmod>2024-01-22T00:22:11Z</lastmod>
+    </url>
+    <url>
         <loc>https://elowen.life/article/markdown-example/</loc>
         <lastmod>2024-01-18T19:57:06Z</lastmod>
     </url>
@@ -116,10 +120,22 @@
         <loc>https://elowen.life/tags/</loc>
     </url>
     <url>
+        <loc>https://elowen.life/tags/life/</loc>
+    </url>
+    <url>
+        <loc>https://elowen.life/tags/life/page/1/</loc>
+    </url>
+    <url>
         <loc>https://elowen.life/tags/markdown/</loc>
     </url>
     <url>
         <loc>https://elowen.life/tags/markdown/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://elowen.life/tags/thinking/</loc>
+    </url>
+    <url>
+        <loc>https://elowen.life/tags/thinking/page/1/</loc>
     </url>
     <url>
         <loc>https://elowen.life/thinking/</loc>
