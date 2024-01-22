@@ -5,7 +5,7 @@ date = 2024-01-18T11:20:38Z
 original_url = "https://www.bloomberg.com/news/articles/2024-01-18/did-china-s-economy-really-grow-5-2-in-2023-not-all-agree"
 source = "Bloomberg"
 [taxonomies]
-focus_blend_tags = ["Asia", "News"]
+focus_blend_tags = ["Asia"]
 +++
 
 Independent Data Shows China Domestic Travel Surge in 2023
