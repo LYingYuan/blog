@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Elowen - Life</title>
+    <link rel="self" type="application/atom+xml" href="https://elowentao.com/tags/life/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://elowentao.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-22T00:22:11+00:00</updated>
+    <id>https://elowentao.com/tags/life/atom.xml</id>
+    <entry xml:lang="en">
+        <title>关于中庸之道的思考</title>
+        <published>2024-01-22T00:22:11+00:00</published>
+        <updated>2024-01-22T00:22:11+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://elowentao.com/article/guan-yu-zhong-yong-zhi-dao-de-si-kao/"/>
+        <id>https://elowentao.com/article/guan-yu-zhong-yong-zhi-dao-de-si-kao/</id>
+        
+        <content type="html" xml:base="https://elowentao.com/article/guan-yu-zhong-yong-zhi-dao-de-si-kao/">&lt;p&gt;中庸并非平庸，至于中庸之道究竟是什么？&lt;a href=&quot;https:&#x2F;&#x2F;zh.wikipedia.org&#x2F;wiki&#x2F;%E4%B8%AD%E5%BA%B8%E4%B9%8B%E9%81%93&quot;&gt;Wiki&lt;&#x2F;a&gt; 给出的释义是：“中庸之道是指两个对立面之间理想的中间状态”。用更通俗的话说就是：把握住度，不要用力过猛。&lt;&#x2F;p&gt;
+&lt;p&gt;与人交往需要找到中庸之道，在工作、创造中同样需要寻找它。&lt;&#x2F;p&gt;
+&lt;p&gt;举一个简单的例子，我现在的项目部署代码的方式枯燥繁琐，因此我想要制作一个自动化项目部署公司代码到客户的私有云中。此自动化项目的功能可能包括：&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;在公司内网打包代码为 Docker image；&lt;&#x2F;li&gt;
+&lt;li&gt;拉取该 image 到本地；&lt;&#x2F;li&gt;
+&lt;li&gt;修改 image 名称；&lt;&#x2F;li&gt;
+&lt;li&gt;开启 VPN 并将 image 上传至客户的私有云；&lt;&#x2F;li&gt;
+&lt;li&gt;部署。&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;逻辑很简单，即操控浏览器 + Terminal 命令，实现两者并将它们联动起来就能接近 100% 的自动化程度。让我这个单纯的 IT 想想，Terminal 就是写几句 Bash 嘛，浏览器操作的话就是制作一个油猴脚本或者扩展嘛。嗯...等等，如何联动 Terminal 和浏览器我似乎没有做过，问问我的老师 ChatGPT，嗯...好像很复杂，需要学习的知识有点多。&lt;&#x2F;p&gt;
+&lt;p&gt;学习曲线陡增让本令人愉悦的创造过程变得痛苦，畏难情绪扑面而来。我不禁问自己：是否 100% 自动化并不是最优解？&lt;&#x2F;p&gt;
+&lt;p&gt;等等，似乎完成 Terminal 部分就能使自动化程度达到 85%，如果将追求中庸之道比作寻找正态分布的峰值，那么或许完成这 85% 即为我的峰值。&lt;&#x2F;p&gt;
+&lt;p&gt;当然，这并不是给畏惧学习新知识做辩解，每个人的精力和耐心都是有限的，更糟糕的是我性子急，为了追求 100% 自动化而大量压缩其他日常学习的时间只为了自动化用鼠标点击几下的动作，这对我来说是一个亏本买卖。&lt;&#x2F;p&gt;
+&lt;p&gt;但对于其他更有经验的人来说，他&#x2F;她们的峰值并不一定是“85%”。同样，对于我自己来说，这个峰值也不是一成不变的，我被限制于现在的认知和经验，或许某天我的“信息茧房”会变大，大到足以改变这个自动化程序的峰值。&lt;&#x2F;p&gt;
+&lt;p&gt;“中庸之道”是一门平衡艺术，寻找“峰值”并不是一件简单的事情，不仅需要深谙你自身的特点，还需善于统筹现有资源，尽可能列出目前可行的选项，再思考究竟选择哪一个更靠近“峰值”，这同样需要经验。哈哈哈哈，这样看来，追求“中庸之道”的过程本身也需要遵循“中庸”的原则，不能过于草率决断，也不可过分追求寻找到绝对的“峰值”，我们每个人都被自己当下的认知和经验所限制，寻找适合自己的“中庸之道”也是一个不断学习和适应的过程。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

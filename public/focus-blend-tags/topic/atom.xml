@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Elowen - Topic</title>
+    <link rel="self" type="application/atom+xml" href="https://elowentao.com/focus-blend-tags/topic/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://elowentao.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-19T17:30:09+00:00</updated>
+    <id>https://elowentao.com/focus-blend-tags/topic/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Corporations Are Not To Be Loved</title>
+        <published>2024-01-19T17:30:09+00:00</published>
+        <updated>2024-01-19T17:30:09+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://elowentao.com/focus-blend/corporations-are-not-to-be-loved/"/>
+        <id>https://elowentao.com/focus-blend/corporations-are-not-to-be-loved/</id>
+        
+        <content type="html" xml:base="https://elowentao.com/focus-blend/corporations-are-not-to-be-loved/">&lt;p&gt;But I need to remember, now and again, that Apple is a corporation, and corporations aren’t people, and they can’t love you back. You wouldn’t love GE or Exxon or Comcast — and you shouldn’t love Apple. It’s not an exception to the rule: there are no exceptions.&lt;&#x2F;p&gt;
+&lt;p&gt;但我得时不时提醒自己，苹果是一家公司，公司不是人，它们无法回应你的爱。你不会爱通用电气、埃克森或康卡斯特，你也不应该爱苹果。这不是规则的例外：没有例外。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

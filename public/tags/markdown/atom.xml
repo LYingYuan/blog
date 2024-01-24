@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Elowen - Markdown</title>
+    <link rel="self" type="application/atom+xml" href="https://elowentao.com/tags/markdown/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://elowentao.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-18T19:57:06+00:00</updated>
+    <id>https://elowentao.com/tags/markdown/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Markdown Example</title>
+        <published>2024-01-18T19:57:06+00:00</published>
+        <updated>2024-01-18T19:57:06+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://elowentao.com/article/markdown-example/"/>
+        <id>https://elowentao.com/article/markdown-example/</id>
+        
+        <content type="html" xml:base="https://elowentao.com/article/markdown-example/">&lt;p&gt;This post is a markdown example.&lt;&#x2F;p&gt;
+&lt;p&gt;Here is &lt;a href=&quot;http:&#x2F;&#x2F;example.com&quot;&gt;a link&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Some &lt;em&gt;italic text&lt;&#x2F;em&gt; and &lt;strong&gt;bold text&lt;&#x2F;strong&gt; and &lt;del&gt;strikethrough text&lt;&#x2F;del&gt; and &lt;code&gt;inline code&lt;&#x2F;code&gt;. &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; Here is a code block
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;() {
+&lt;&#x2F;span&gt;&lt;span&gt;    println!(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Hello world!&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;);
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Unordered list: &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#2&quot;&gt;2&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;An unordered,&lt;&#x2F;li&gt;
+&lt;li&gt;bulleted list&lt;&#x2F;li&gt;
+&lt;li&gt;of items&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Ordered list:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;An ordered,&lt;&#x2F;li&gt;
+&lt;li&gt;numbered list&lt;&#x2F;li&gt;
+&lt;li&gt;of items&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A quote.&lt;&#x2F;p&gt;
+&lt;p&gt;It contains multiple paragraphs.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;heading-3&quot;&gt;Heading 3&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;heading-4&quot;&gt;Heading 4&lt;&#x2F;h4&gt;
+&lt;h5 id=&quot;heading-5&quot;&gt;Heading 5&lt;&#x2F;h5&gt;
+&lt;h6 id=&quot;heading-6&quot;&gt;Heading 6&lt;&#x2F;h6&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;plchldr.co&#x2F;i&#x2F;480x360?bg=EB6361&quot; alt=&quot;An example image&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;plchldr.co&#x2F;i&#x2F;1280x720?bg=3D8EB9&quot; alt=&quot;A large image&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Hello world!&lt;&#x2F;th&gt;&lt;th&gt;This is a table.&lt;&#x2F;th&gt;&lt;th&gt;Tables are also supported.&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;They even&lt;&#x2F;td&gt;&lt;td&gt;have alternating&lt;&#x2F;td&gt;&lt;td&gt;row colors!&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Let me add&lt;&#x2F;td&gt;&lt;td&gt;another row so&lt;&#x2F;td&gt;&lt;td&gt;it&#x27;s easier to see.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;div class=&quot;doublespace&quot;&gt;&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;A footnote. Footnotes can be used for things that could have explanation or extra context, but
+&lt;&#x2F;span&gt;&lt;span&gt;for which the explanation is not relevant or otherwise desirable to have inline.
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;2&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;2&lt;&#x2F;sup&gt;
+&lt;p&gt;Another footnote.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+</feed>
