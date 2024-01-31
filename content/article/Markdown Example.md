@@ -8,15 +8,12 @@ draft = false
 aliases = []
 authors = ["Elowen"]
 in_search_index = true
-category = "Markdown"
 [taxonomies]
+categories = ["Markdown"]
 tags = ["Markdown"]
-
 +++
 
-## Summary
-
-- This post is a markdown example.
+This post is a markdown example.
 
 <!-- more -->
 
@@ -30,7 +27,6 @@ Youtube
 
 CodePen
 {{ codepen(id="MWxaraZ", user="lyingyuan", height="300") }}
-
 
 Some _italic text_ and **bold text** and ~~strikethrough text~~ and `inline code`. [^1]
 

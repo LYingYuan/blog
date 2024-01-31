@@ -240,8 +240,7 @@ details > summary > h3 {
 }
 
 /* category archive */
-.tags > ol,
-.archive > ol {
+.details-list > ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
