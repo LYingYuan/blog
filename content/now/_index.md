@@ -1,12 +1,14 @@
 +++
 title = "Now"
 template = "now.html"
-extra.update_time = 2024-01-24T09:58:17Z
+extra.update_time = 2024-01-30T16:58:00Z
 +++
 
 ## Doing
 
-学习 TS + VUE 3
+整理博客文章；
+
+学习 TS + VUE 3；
 
 学习微积分；
 
