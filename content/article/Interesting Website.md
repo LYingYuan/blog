@@ -4,6 +4,7 @@ title = "Interesting Website"
 date = 2024-01-20T22:26:32Z
 author = ""
 description = "当前博客模板在各 Markdown 语句上的表现。"
+category = "Other"
 [taxonomies]
 tags = ["Other"]
 +++

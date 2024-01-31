@@ -1,7 +1,22 @@
 +++
 title = "About"
+description = ""
+draft = false
+sort_by = "date"
+weight = 0
 template = "about.html"
-extra.update_time = 2024-01-22T14:39:11Z
+page_template = "page.html"
+paginate_by = 0
+paginate_path = "page"
+paginate_reversed = false
+insert_anchor_links = "none"
+in_search_index = true
+render = true
+transparent = false
+aliases = []
+generate_feed = false
+[extra]
+update_time = 2024-01-22T14:39:11Z
 +++
 
 **努力扩大认知领域（我更喜欢称它为“信息茧房”）并不会带来财富、提升阶级，但会让我在短短几十年的生命周期里，看到更多这个世界的精彩。**
