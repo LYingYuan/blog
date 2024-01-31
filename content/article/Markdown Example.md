@@ -1,15 +1,36 @@
 +++
 title = "Markdown Example"
-date = 2024-01-18T19:57:06Z
-author = "Elowen"
 description = "当前博客模板在各 Markdown 语句上的表现。"
+date = 2024-01-18T19:57:06Z
+updated = 2024-01-31T15:44:02Z
+weight = 0
+draft = false
+aliases = []
+authors = ["Elowen"]
+in_search_index = true
+category = "Markdown"
 [taxonomies]
 tags = ["Markdown"]
+
 +++
 
-This post is a markdown example.
+## Summary
+
+- This post is a markdown example.
+
+<!-- more -->
+
+---
 
 Here is [a link](http://example.com).
+
+Youtube
+
+{{ youtube(id="m2MIpDrF7Es") }}
+
+CodePen
+{{ codepen(id="MWxaraZ", user="lyingyuan", height="300") }}
+
 
 Some _italic text_ and **bold text** and ~~strikethrough text~~ and `inline code`. [^1]
 
