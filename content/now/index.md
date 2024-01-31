@@ -1,22 +1,14 @@
 +++
 title = "Now"
 description = ""
-draft = false
-sort_by = "date"
+date = 2024-01-31T14:34:43Z
+updated = 2024-01-30T16:58:00Z
 weight = 0
-template = "now.html"
-page_template = "page.html"
-paginate_by = 0
-paginate_path = "page"
-paginate_reversed = false
-insert_anchor_links = "none"
-in_search_index = true
-render = true
-transparent = false
+draft = false
 aliases = []
-generate_feed = false
-[extra]
-update_time = 2024-01-30T16:58:00Z
+authors = ["Elowen"]
+in_search_index = true
+template = "now.html"
 +++
 
 ## Doing

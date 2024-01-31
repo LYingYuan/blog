@@ -1,10 +1,10 @@
-{% extends "section.html" %} {% block content %}
+{% extends "base.html" %} {% block content %}
 <main class="main">
   <header>
-    <h1>{{ section.title }}</h1>
-    <p class="last-update">上次更新：<time>{{ section.extra.update_time | date(format="%Y-%m-%d %H:%M") }}</time></p>
+    <h1>{{ page.title }}</h1>
+    <p class="last-update">上次更新：<time>{{ page.updated | date(format="%Y-%m-%d %H:%M") }}</time></p>
   </header>
-  {{ section.content | safe}}
+  {{ page.content | safe}}
 </main>
 
 {% endblock content %}
