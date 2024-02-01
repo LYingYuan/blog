@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="{% block description %}{{ section.description | default(value=config.description) }}{% endblock description %}" />
     <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+    <link rel="shortcut icon" href="{{ get_url(path='Elowen-logos_transparent.png', cachebust=true) }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ get_url(path='style.css', cachebust=true) }}" />
     <!-- TODO RSS -->
   </head>
