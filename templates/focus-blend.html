@@ -23,10 +23,10 @@
     </ol>
   </details>
 
-  <details class="details-list" open>
+  <details open>
     <summary><h2 class="no-margin">按<span>分类</span>查看：</h2></summary>
     {% set categories = get_taxonomy(kind="focus_blend_categories") %}
-    <ol>
+    <ol class="details-list">
       {% for category in categories.items %}
       <li>
         <details>
@@ -54,10 +54,10 @@
     </ol>
   </details>
 
-  <details class="details-list">
+  <details>
     <summary><h2 class="no-margin">按<span>标签</span>查看：</h2></summary>
     {% set tags = get_taxonomy(kind="focus_blend_tags") %}
-    <ol>
+    <ol class="details-list">
       {% for tag in tags.items %}
       <li>
         <details>
@@ -76,6 +76,47 @@
                   <a href="{{ page.extra.original_url }}" target="_blank" rel="noopener noreferrer">阅读原文>>></a>
                 </footer>
               </blockquote>
+            </li>
+            {% endfor %}
+          </ol>
+        </details>
+      </li>
+      {% endfor %}
+    </ol>
+  </details>
+
+  <details>
+    <summary><h2 class="no-margin">按<span>归档</span>查看：</h2></summary>
+    {% set all_pages = section.pages %}
+    <ol class="details-list">
+      {% for year, year_pages in section.pages | group_by(attribute="year") %}
+      <li>
+        <details>
+          <summary><h3 class="no-margin">{{ year }}({{ year_pages | length }})</h3></summary>
+          <ol class="details-list">
+            {% for month, pages in year_pages| group_by(attribute="month") %}
+            <li>
+              <details>
+                {% set months = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"] %}
+                <summary><h4 class="no-margin">{{ months[month] }}({{ pages | length }})</h4></summary>
+                <ol class="cards">
+                  {% for page in pages %}
+                  <li class="card">
+                    <blockquote class="profile">
+                      <header>
+                        <h4 class="no-margin">{{ page.title }}</h4>
+                        <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
+                      </header>
+                      <p>{{ page.content | safe }}</p>
+                      <footer class="source">
+                        <div>来源：<cite>{{ page.extra.source }}</cite></div>
+                        <a href="{{ page.extra.original_url }}" target="_blank" rel="noopener noreferrer">阅读原文>>></a>
+                      </footer>
+                    </blockquote>
+                  </li>
+                  {% endfor %}
+                </ol>
+              </details>
             </li>
             {% endfor %}
           </ol>

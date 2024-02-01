@@ -20,10 +20,10 @@
     </ol>
   </details>
 
-  <details class="details-list" open>
+  <details open>
     <summary><h2 class="no-margin">按<span>分类</span>查看：</h2></summary>
     {% set categories = get_taxonomy(kind="categories") %}
-    <ol>
+    <ol class="details-list">
       {% for category in categories.items %}
       <li>
         <details>
@@ -48,10 +48,10 @@
     </ol>
   </details>
 
-  <details class="details-list">
+  <details>
     <summary><h2 class="no-margin">按<span>标签</span>查看：</h2></summary>
     {% set tags = get_taxonomy(kind="tags") %}
-    <ol>
+    <ol class="details-list">
       {% for tag in tags.items %}
       <li>
         <details>
@@ -76,10 +76,10 @@
     </ol>
   </details>
 
-  <details class="details-list">
+  <details>
     <summary><h2 class="no-margin">按<span>归档</span>查看：</h2></summary>
-    {% set all_pages = section.pages %} 
-    <ol>
+    {% set all_pages = section.pages %}
+    <ol class="details-list">
       {% for year, pages in section.pages | group_by(attribute="year") %}
       <li>
         <details>

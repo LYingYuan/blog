@@ -192,6 +192,10 @@ details > summary > h3 {
   display: inline-block;
   font-size: 1.3rem;
 }
+details > summary > h4 {
+  display: inline-block;
+  font-size: 1.1rem;
+}
 
 /* cards */
 .cards {
@@ -240,7 +244,7 @@ details > summary > h3 {
 }
 
 /* category archive */
-.details-list > ol {
+.details-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
