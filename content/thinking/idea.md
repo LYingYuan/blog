@@ -2,7 +2,7 @@
 title = "Idea"
 description = ""
 date = 2024-01-25T21:17:22Z
-updated = 2024-02-01T11:26:56Z
+updated = 2024-01-25T21:17:22Z
 weight = 0
 draft = false
 aliases = []

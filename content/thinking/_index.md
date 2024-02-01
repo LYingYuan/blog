@@ -2,7 +2,7 @@
 title = "Thinking"
 description = ""
 draft = false
-sort_by = "date"
+sort_by = "update_date"
 weight = 0
 template = "thinking.html"
 page_template = "page.html"

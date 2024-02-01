@@ -21,7 +21,7 @@ China sells general bonds every year to fill the spending gap in its budget. Spe
 
 中国每年都会出售一般债券，以填补预算支出缺口。在极少数情况下，中国会发行特别主权债券，为特定用途筹集现金。与一般债券不同，这些债券不计入国家赤字计算。特别债券也可以临时批准，例如在全国人民代表大会常务委员会（共产党控制的议会，负责监督政府借贷）每两个月左右召开一次会议时。相比之下，一般债券在大多数情况下需要计入预算，并在每年的全国人大会议上获得批准。
 
-Special bonds can help Beijing keep local debt risks under control. 
+Special bonds can help Beijing keep local debt risks under control.
 
 专项债券可以帮助北京控制地方债务风险。
 

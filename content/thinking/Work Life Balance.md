@@ -2,7 +2,7 @@
 title = "Work Life Balance"
 description = ""
 date = 2024-01-31T10:32:00Z
-updated = 2024-02-01T11:30:07Z
+updated = 2024-01-31T10:32:00Z
 weight = 0
 draft = false
 aliases = []

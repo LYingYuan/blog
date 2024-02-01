@@ -2,7 +2,7 @@
 title = "Part Time Business"
 description = ""
 date = 2024-01-24T14:06:48Z
-updated = 2024-02-01T11:28:35Z
+updated = 2024-01-24T14:06:48Z
 weight = 0
 draft = false
 aliases = []

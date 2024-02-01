@@ -2,7 +2,7 @@
 title = "Love"
 description = ""
 date = 2024-01-21T15:43:51Z
-updated = 2024-02-01T11:27:07Z
+updated = 2024-01-21T15:43:51Z
 weight = 0
 draft = false
 aliases = []
