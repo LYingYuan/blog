@@ -1,11 +1,20 @@
 +++
 title = "Office politics is not optional: learn to play the game or you’ll be its victim"
+description = ""
 date = 2024-01-22T16:36:37Z
+updated = 2024-02-01T10:24:49Z
+authors = ["Miranda Green"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://www.ft.com/content/a84327c6-f939-480c-925d-19d3f41062bf"
 source = "Financial Time"
+comment = ""
 [taxonomies]
-focus_blend_tags = ["Life", "Attitude"]
+focus_blend_categories = ["Lifestyle Insights"]
+focus_blend_tags = ["Office Politics", "Attitude"]
 +++
 
 “People opt out of the quest for power” often because they see bad people seeking it or using it for ill.

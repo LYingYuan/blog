@@ -1,10 +1,19 @@
 +++
 title = "Why is machine learning 'hard'?"
+description = ""
 date = 2024-01-24T13:57:16Z
+updated = 2024-02-01T11:03:15Z
+authors = ["S. Zayd Enam"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://ai.stanford.edu/~zayd/why-is-machine-learning-hard.html"
-source = "Hacker News"
+source = "Stanford AI Lab"
+comment = ""
 [taxonomies]
+focus_blend_categories = ["Tech Trends"]
 focus_blend_tags = ["Machine Learning"]
 +++
 
@@ -16,7 +25,6 @@ The difficulty is that machine learning is a fundamentally hard debugging proble
 
 困难在于，机器学习从根本上说是一个难以调试的问题。机器学习的调试有两种情况：1）你的算法不工作；或 2）你的算法工作得不够好。机器学习的独特之处在于，当事情不能按预期运行时，要找出问题所在的难度是 "指数级 "的。除了调试难度之外，从实施修复或升级到看到结果之间的调试周期也经常会出现延迟。很少有算法第一次就能正常工作，因此在构建算法的过程中，大部分时间都花在了调试上。
 
-The second compounding factor that complicates machine learning debugging is long debugging cycles. 
+The second compounding factor that complicates machine learning debugging is long debugging cycles.
 
 导致机器学习调试复杂化的第二个复杂因素是调试周期长。
-

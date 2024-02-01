@@ -1,11 +1,20 @@
 +++
 title = "Senior China Envoy Dismisses Qin Gang Removal as ‘Not Uncommon’"
+description = ""
 date = 2024-01-24T16:31:47Z
+updated = 2024-02-01T10:27:40Z
+authors = ["Kevin Whitelaw", "Rebecca Choong Wilkins"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://www.bloomberg.com/news/articles/2024-01-24/china-s-europe-envoy-shrugs-off-qin-gang-removal-as-not-uncommon"
 source = "Bloomberg"
+comment = ""
 [taxonomies]
-focus_blend_tags = ["Asia"]
+focus_blend_categories = ["News Highlights"]
+focus_blend_tags = ["China", "Politics"]
 +++
 
 An investigation found Qin had an affair while serving as the US ambassador that could have endangered national security, the Wall Street Journal reported, though no inquiry has been announced.

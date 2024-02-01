@@ -1,11 +1,20 @@
 +++
 title = "Did China’s Economy Really Grow 5.2% in 2023? Not All Agree"
+description = ""
 date = 2024-01-18T11:20:38Z
+updated = 2024-02-01T09:22:59Z
+authors = ["Tom Hancock"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://www.bloomberg.com/news/articles/2024-01-18/did-china-s-economy-really-grow-5-2-in-2023-not-all-agree"
 source = "Bloomberg"
+comment = ""
 [taxonomies]
-focus_blend_tags = ["Asia"]
+focus_blend_categories = ["News Highlights"]
+focus_blend_tags = ["China", "Travel"]
 +++
 
 Independent Data Shows China Domestic Travel Surge in 2023

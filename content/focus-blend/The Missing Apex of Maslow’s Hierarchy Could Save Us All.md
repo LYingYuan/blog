@@ -1,11 +1,20 @@
 +++
 title = "The Missing Apex of Maslow’s Hierarchy Could Save Us All"
+description = ""
 date = 2024-01-29T22:40:52Z
+updated = 2024-02-01T10:34:22Z
+authors = ["Robby Berman"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://bigthink.com/personal-growth/the-missing-apex-of-maslows-hierarchy-could-save-us-all/"
-source = "Hacker News"
+source = "Big Think"
+comment = ""
 [taxonomies]
-focus_blend_tags = ["Attitude", "Life"]
+focus_blend_categories = ["Lifestyle Insights"]
+focus_blend_tags = ["Maslow", "Attitude"]
 +++
 
 When psychologist Abraham Maslow died, he wasn’t quite finished with his famous hierarchy of human needs.

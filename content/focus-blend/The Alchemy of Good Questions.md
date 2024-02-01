@@ -1,11 +1,20 @@
 +++
 title = "The Alchemy of Good Questions"
+description = ""
 date = 2024-01-20T17:04:22Z
+updated = 2024-02-01T10:32:25Z
+authors = ["Anne-Laure Le Cunff"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://nesslabs.com/good-questions"
-source = "Ness Labs, ChatGPT"
+source = "Ness Labs"
+comment = ""
 [taxonomies]
-focus_blend_tags = ["Life"]
+focus_blend_categories = ["Miscellaneous"]
+focus_blend_tags = ["Skill"]
 +++
 
 When you ask good questions, you get good answers.

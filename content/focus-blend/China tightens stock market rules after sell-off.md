@@ -1,11 +1,20 @@
 +++
 title = "China tightens stock market rules after sell-off"
+description = ""
 date = 2024-01-30T16:35:03Z
+updated = 2024-02-01T09:50:45Z
+authors = ["Mariko Oi"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://www.bbc.com/news/business-68125359"
 source = "BBC"
+comment = ""
 [taxonomies]
-focus_blend_tags = ["Asia"]
+focus_blend_categories = ["News Highlights"]
+focus_blend_tags = ["China", "Real Estate"]
 +++
 
 The real estate sector's troubles have also revealed issues faced by the country's so-called "shadow banks" which have lent billions of dollar to developers.

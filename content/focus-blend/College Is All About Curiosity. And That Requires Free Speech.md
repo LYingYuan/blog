@@ -1,11 +1,20 @@
 +++
 title = "College Is All About Curiosity. And That Requires Free Speech."
+description = ""
 date = 2024-01-26T11:05:05Z
+updated = 2024-02-01T09:57:53Z
+authors = ["Stephen L. Carter"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://www.nytimes.com/2024/01/24/magazine/college-free-speech.html"
 source = "The New York Times"
+comment = ""
 [taxonomies]
-focus_blend_tags = ["Life"]
+focus_blend_categories = ["Lifestyle Insights"]
+focus_blend_tags = ["Campus", "Learning", "Freedom"]
 +++
 
 **True learning can only happen on campuses where academic freedom is paramount — within and outside the classroom.**

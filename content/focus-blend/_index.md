@@ -17,3 +17,5 @@ aliases = []
 generate_feed = false
 +++
 
+categories = ["Tech Trends", "Lifestyle Insights", "News Highlights", "Miscellaneous"]
+

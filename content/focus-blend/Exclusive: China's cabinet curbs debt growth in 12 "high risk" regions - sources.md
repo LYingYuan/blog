@@ -1,11 +1,20 @@
 +++
 title = "Exclusive: China's cabinet curbs debt growth in 12 \"high risk\" regions - sources"
+description = ""
 date = 2024-01-26T10:33:53Z
+updated = 2024-02-01T10:22:12Z
+authors = ["Don Durfee", "Raju Gopalakrishnan"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://www.reuters.com/world/china/chinas-cabinet-curbs-debt-growth-12-high-risk-regions-sources-2023-10-25/"
 source = "Reuters"
+comment = ""
 [taxonomies]
-focus_blend_tags = ["Asia"]
+focus_blend_categories = ["News Highlights"]
+focus_blend_tags = ["China", "GDP"]
 +++
 
 China's cabinet has restricted the ability of local governments in 12 heavily indebted regions to take on new debt and placed limits on what new state-funded projects they can launch, three sources with knowledge of the matter said.

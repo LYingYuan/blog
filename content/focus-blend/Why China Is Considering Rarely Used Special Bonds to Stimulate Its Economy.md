@@ -1,11 +1,20 @@
 +++
 title = "Why China Is Considering Rarely Used Special Bonds to Stimulate Its Economy"
+description = ""
 date = 2024-01-22T15:58:42Z
+updated = 2024-02-01T11:02:11Z
+authors = ["Bloomberg News"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://www.bloomberg.com/news/articles/2024-01-22/why-china-is-considering-special-sovereign-bonds-to-stimulate-its-economy?leadSource=uverify%20wall"
 source = "Bloomberg"
+comment = ""
 [taxonomies]
-focus_blend_tags = ["Asia"]
+focus_blend_categories = ["News Highlights"]
+focus_blend_tags = ["China", "Bonds"]
 +++
 
 China sells general bonds every year to fill the spending gap in its budget. Special sovereign bonds have been issued on rare occasions to raise cash for specific purposes. These — unlike general bonds — are not included in the country’s deficit calculations. Special bonds can also be approved on an ad-hoc basis, such as when the Standing Committee of the National People’s Congress — the Communist Party-controlled parliament that oversees government borrowing — meets every two months or so. In contrast, general bonds in most cases need to be factored into the budget and receive approval at the annual NPC meeting.

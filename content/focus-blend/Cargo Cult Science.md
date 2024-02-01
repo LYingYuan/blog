@@ -1,10 +1,19 @@
 +++
 title = "Cargo Cult Science"
+description = ""
 date = 2024-01-19T17:30:34Z
+updated = 2024-02-01T09:34:25Z
+authors = ["ChatGPT"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://en.wikipedia.org/wiki/Cargo_cult_science"
-source = "Wiki, ChatGPT"
+source = "Wiki"
+comment = ""
 [taxonomies]
+focus_blend_categories = ["Miscellaneous"]
 focus_blend_tags = ["Term"]
 +++
 

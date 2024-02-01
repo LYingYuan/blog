@@ -1,12 +1,16 @@
 +++
-draft = true
 title = "Interesting Website"
-date = 2024-01-20T22:26:32Z
-author = ""
 description = "当前博客模板在各 Markdown 语句上的表现。"
-category = "Other"
+date = 2024-01-20T22:26:32Z
+updated = 2024-02-01T09:01:28Z
+draft = true
+weight = 0
+aliases = []
+authors = ["Elowen"]
+in_search_index = true
 [taxonomies]
-tags = ["Other"]
+categories = ["Other"]
+tags = ["Markdown"]
 +++
 
 本文将列举我收藏的一些有趣的网站。

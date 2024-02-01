@@ -1,11 +1,20 @@
 +++
 title = "ASML Orders Triple as Demand for Most-Advanced Gear Soars"
+description = ""
 date = 2024-01-24T16:14:17Z
+updated = 2024-02-01T09:30:05Z
+authors = ["Cagan Koc"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://www.bloomberg.com/news/articles/2024-01-24/asml-orders-triple-as-demand-for-most-sophisticated-gear-soared"
 source = "Bloomberg"
+comment = ""
 [taxonomies]
-focus_blend_tags = ["Technology"]
+focus_blend_categories = ["News Highlights"]
+focus_blend_tags = ["Chip", "China", "ASML"]
 +++
 
 ASML also benefited from strong demand from China last year as chipmakers there rushed to get lithography machines ahead of Dutch export rules meant to hobble Beijing’s semiconductor ambitions. The rise in Chinese demand helped offset the effects of a global chip industry slowdown on ASML, which is the only producer of the equipment needed to produce most advanced semiconductors.

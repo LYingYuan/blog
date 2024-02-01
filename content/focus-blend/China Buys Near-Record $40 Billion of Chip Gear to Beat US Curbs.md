@@ -1,11 +1,20 @@
 +++
 title = "China Buys Near-Record $40 Billion of Chip Gear to Beat US Curbs"
+description = ""
 date = 2024-01-22T15:50:15Z
+updated = 2024-02-01T09:35:22Z
+authors = ["Bloomberg News"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://www.bloomberg.com/news/articles/2024-01-22/china-buys-near-record-40-billion-of-chip-gear-to-beat-us-curbs"
 source = "Bloomberg"
+comment = ""
 [taxonomies]
-focus_blend_tags = ["Asia"]
+focus_blend_categories = ["News Highlights"]
+focus_blend_tags = ["Chip", "China", "ASML"]
 +++
 
 Imports of the machinery used to make computer chips rose 14% in 2023 to almost $40 billion — the second largest amount by value on record in data going back to 2015, according to Bloomberg calculations based on official customs data. The increase came despite a 5.5% drop in total imports last year, underscoring the importance that the Chinese government and the nation’s chip industry have placed on becoming self-sufficient.

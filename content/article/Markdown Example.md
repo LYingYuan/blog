@@ -2,14 +2,14 @@
 title = "Markdown Example"
 description = "当前博客模板在各 Markdown 语句上的表现。"
 date = 2024-01-18T19:57:06Z
-updated = 2024-01-31T15:44:02Z
-weight = 0
+updated = 2024-02-01T09:15:11Z
 draft = false
+weight = 0
 aliases = []
 authors = ["Elowen"]
 in_search_index = true
 [taxonomies]
-categories = ["Markdown"]
+categories = ["Other"]
 tags = ["Markdown"]
 +++
 

@@ -1,11 +1,20 @@
 +++
 title = "Efficiency asymmetry: Scientists report fundamental asymmetry between heating and cooling"
+description = ""
 date = 2024-01-23T15:53:54Z
+updated = 2024-02-01T10:01:10Z
+authors = ["M. Ibáñez", "C. Dieball", "A. Lasanta", "A. Godec", "R. A. Rica"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://www.nature.com/articles/s41567-023-02269-z"
 source = "Nature Physic"
+comment = ""
 [taxonomies]
-focus_blend_tags = ["Science"]
+focus_blend_categories = ["Miscellaneous"]
+focus_blend_tags = ["Science", "Temperature"]
 +++
 
 According to conventional wisdom, a system placed in an environment with a different temperature tends to relax to the temperature of the latter, mediated by the flows of heat or matter that are set solely by the temperature difference. It is becoming clear, however, that thermal relaxation is much more intricate when temperature changes push the system far from thermodynamic equilibrium. Here, by using an optically trapped colloidal particle, we show that microscale systems under such conditions heat up faster than they cool down. We find that between any pair of temperatures, heating is not only faster than cooling but the respective processes, in fact, evolve along fundamentally distinct pathways, which we explain with a new theoretical framework that we call thermal kinematics. Our results change the view of thermalization at the microscale and will have a strong impact on energy-conversion applications and thermal management of microscopic devices, particularly in the operation of Brownian heat engines.

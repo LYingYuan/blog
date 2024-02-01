@@ -1,10 +1,19 @@
 +++
 title = "McCarthyism"
+description = ""
 date = 2024-01-26T11:19:18Z
+updated = 2024-02-01T10:24:16Z
+authors = ["ChatGPT"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://en.wikipedia.org/wiki/McCarthyism"
-source = "Wiki, ChatGPT"
+source = "Wiki"
+comment = ""
 [taxonomies]
+focus_blend_categories = ["Miscellaneous"]
 focus_blend_tags = ["Term"]
 +++
 

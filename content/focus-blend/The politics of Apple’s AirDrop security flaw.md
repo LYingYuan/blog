@@ -1,11 +1,20 @@
 +++
 title = "The politics of Apple’s AirDrop security flaw"
+description = ""
 date = 2024-01-21T16:19:26Z
+updated = 2024-02-01T10:48:50Z
+authors = ["RUSSELL BRANDOM"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://restofworld.org/2024/exporter-apple-airdrop-security-china/?utm_source=rss&utm_medium=rss&utm_campaign=feeds"
 source = "Rest of World"
+comment = ""
 [taxonomies]
-focus_blend_tags = ["Asia"]
+focus_blend_categories = ["News Highlights"]
+focus_blend_tags = ["China", "AirDrop", "Apple", "Politics"]
 +++
 
 Apple placed heavy restrictions on AirDrop use in China, particularly on messages received from outside a user’s contacts.

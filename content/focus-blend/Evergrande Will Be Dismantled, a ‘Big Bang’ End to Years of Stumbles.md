@@ -1,11 +1,20 @@
 +++
 title = "Evergrande Will Be Dismantled, a ‘Big Bang’ End to Years of Stumbles"
+description = ""
 date = 2024-01-29T23:05:47Z
+updated = 2024-02-01T10:18:52Z
+authors = ["Alexandra Stevenson"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://www.nytimes.com/2024/01/28/business/china-evergrande.html"
 source = "The New York Times"
+comment = ""
 [taxonomies]
-focus_blend_tags = ["Asia"]
+focus_blend_categories = ["News Highlights"]
+focus_blend_tags = ["China", "Real Estate"]
 +++
 
 The order means that Evergrande, which has been limping along for two years, unable to pay its debts or function normally but still in operation, will now likely face a protracted period dismantling a massive business with projects that span hundreds of cities and unrelated businesses like an electric vehicle company.

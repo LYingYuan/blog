@@ -1,11 +1,20 @@
 +++
 title = "China Stock Selloff Worsens as Hong Kong Index Nears 19-Year Low"
+description = ""
 date = 2024-01-22T15:31:35Z
+updated = 2024-02-01T09:47:53Z
+authors = ["Bloomberg News"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://www.bloomberg.com/news/articles/2024-01-22/china-stock-selloff-worsens-as-hong-kong-index-nears-19-year-low"
 source = "Bloomberg"
+comment = ""
 [taxonomies]
-focus_blend_tags = ["Asia"]
+focus_blend_categories = ["News Highlights"]
+focus_blend_tags = ["China", "Stock"]
 +++
 
 The Hang Seng China Enterprises Index fell as much as 2.2%, edging closer to a level unseen since 2005 and making it one of Asia’s worst-performing key indexes. Chinese tech behemoths including Meituan and Tencent Holdings Ltd. led the declines.

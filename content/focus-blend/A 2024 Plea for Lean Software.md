@@ -1,10 +1,19 @@
 +++
 title = "A 2024 Plea for Lean Software"
+description = ""
 date = 2024-01-21T19:19:52Z
+updated = 2024-02-01T09:25:58Z
+authors = ["Bert Hubert"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://berthub.eu/articles/posts/a-2024-plea-for-lean-software/"
-source = "Hacker News"
+source = "Blog"
+comment = "HN / Personal Blog"
 [taxonomies]
+focus_blend_categories = ["Tech Trends"]
 focus_blend_tags = ["Cyber Security", "Code Design"]
 +++
 

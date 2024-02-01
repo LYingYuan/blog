@@ -1,12 +1,20 @@
 +++
 title = "China’s luxury market is bouncing back. Analysts say these are new areas of opportunity"
+description = ""
 date = 2024-01-30T19:41:22Z
+updated = 2024-02-01T09:46:17Z
+authors = ["Evelyn Cheng"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://www.cnbc.com/2024/01/29/chinas-luxury-market-is-bouncing-back-with-new-areas-of-opportunity.html"
 source = "CNBC"
 comment = ""
 [taxonomies]
-focus_blend_tags = ["Asia"]
+focus_blend_categories = ["News Highlights"]
+focus_blend_tags = ["China", "Luxury"]
 +++
 
 LVMH results showed that despite some resumption of overseas travel, more of China’s consumers are buying luxury products at home.

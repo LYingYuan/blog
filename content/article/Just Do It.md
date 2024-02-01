@@ -1,11 +1,16 @@
 +++
-draft = true
 title = "Just Do It"
-date = 2024-01-22T00:50:16Z
-author = "Elowen"
 description = ""
+date = 2024-01-22T00:50:16Z
+updated = 2024-02-01T09:03:04Z
+draft = true
+weight = 0
+aliases = []
+authors = ["Elowen"]
+in_search_index = true
 [taxonomies]
-tags = ["Life"]
+categories = ["Essays"]
+tags = ["Attitude"]
 +++
 
 我从小便是一个做事带有一份冲动的人，在我中学时期，我一旦有一个想法，我便会想尽办法去实施，但我很快意识到这并不妥当，很多事情需要规划，更全面的思考。

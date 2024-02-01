@@ -1,11 +1,20 @@
 +++
 title = "Being Poor Doesn't Have the Same Effect as Living in Chaos"
+description = ""
 date = 2024-01-24T16:49:38Z
+updated = 2024-02-01T09:31:24Z
+authors = ["Rob Henderson"]
+weight = 0
+draft = false
+aliases = []
+in_search_index = true
 [extra]
 original_url = "https://www.robkhenderson.com/p/being-poor-doesnt-have-the-same-effect"
-source = "Hacker News"
+source = "HN / Personal Blog"
+comment = ""
 [taxonomies]
-focus_blend_tags = ["Life", "US"]
+focus_blend_categories = ["Lifestyle Insights"]
+focus_blend_tags = ["Childcare"]
 +++
 
 In the Los Angeles county foster care system, only 64.5% of foster kids graduate from high school.
