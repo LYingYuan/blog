@@ -126,11 +126,13 @@ blockquote {
 .main > details {
   margin-top: 1rem;
 }
-.last-update,
+.last-updated,
 .release-date {
   margin: 0;
   color: var(--meta-data-color);
+  font-size: smaller;
 }
+
 
 /* footer */
 .footer {

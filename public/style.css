@@ -8,29 +8,9 @@
   src: url("./OpenSans-VariableFont_wdth\,wght.ttf") format("truetype");
   font-weight: 100 900;
 }
-/* @font-face {
-  font-family: "OpenSans";
-  src: url("./OpenSans-Italic-VariableFont_wdth\,wght.ttf") format("truetype");
-  font-weight: 100 900;
-} */
 @font-face {
   font-family: "Oxygen mono";
   src: url("./OxygenMono-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Oxygen";
-  src: url("./Oxygen-Bold.ttf") format("truetype");
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Oxygen";
-  src: url("./Oxygen-Regular.ttf") format("truetype");
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Oxygen";
-  src: url("./Oxygen-Light.ttf") format("truetype");
-  font-weight: lighter;
 }
 :root {
   --monalisa-black: #1f1111;
@@ -75,8 +55,6 @@ h3,
 h4,
 h5,
 h6 {
-  /* TODO margin */
-  /* margin: 0; */
   font-weight: 500;
 }
 a {
@@ -88,7 +66,9 @@ a:hover {
   text-decoration: none;
 }
 img {
-  width: 100%;
+  display: block;
+  margin: auto;
+  max-width: 100%;
 }
 time {
   color: var(--meta-data-color);
@@ -146,11 +126,13 @@ blockquote {
 .main > details {
   margin-top: 1rem;
 }
-.last-update,
+.last-updated,
 .release-date {
   margin: 0;
   color: var(--meta-data-color);
+  font-size: smaller;
 }
+
 
 /* footer */
 .footer {
