@@ -2,7 +2,7 @@
 <main class="main">
   <header>
     <h1>{{ page.title }}</h1>
-    <p class="last-update">上次更新：<time>{{ page.updated | date(format="%Y-%m-%d %H:%M") }}</time></p>
+    <p class="last-update">Last Updated: <time>{{ page.updated | date(format="%Y-%m-%d %H:%M") }}</time></p>
   </header>
   {{ page.content | safe}}
 </main>
