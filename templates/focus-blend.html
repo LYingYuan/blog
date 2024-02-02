@@ -89,7 +89,7 @@
     <summary><h2 class="no-margin">按<span>归档</span>查看：</h2></summary>
     {% set all_pages = section.pages %}
     <ol class="details-list">
-      {% for year, year_pages in section.pages | group_by(attribute="year") %}
+      {% for year, year_pages in section.pages | reverse | group_by(attribute="year") %}
       <li>
         <details>
           <summary><h3 class="no-margin">{{ year }}({{ year_pages | length }})</h3></summary>
