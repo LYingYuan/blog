@@ -14,7 +14,7 @@ source = "BBC"
 comment = ""
 [taxonomies]
 focus_blend_categories = ["News Highlights"]
-focus_blend_tags = ["US", "Real Estates"]
+focus_blend_tags = ["US", "Real Estate"]
 +++
 
 Just 4.09 million homes were purchased, the fewest since 1995, as tight supply pushed prices to a new record, the National Association of Realtors said.
