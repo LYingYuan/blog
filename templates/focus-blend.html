@@ -5,7 +5,7 @@
     <summary><h2 class="no-margin">最近关注：</h2></summary>
     {% set all_pages = section.pages %} {% set recent_pages = all_pages | sort(attribute="date") | reverse %}
     <ol class="cards">
-      {% for page in recent_pages | slice(start=0, end=3) %}
+      {% for page in recent_pages | slice(start=0, end=10) %}
       <li class="card">
         <blockquote class="profile">
           <header>
