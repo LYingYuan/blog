@@ -14,7 +14,7 @@ source = "Financial Times"
 comment = ""
 [taxonomies]
 focus_blend_categories = ["News Highlights"]
-focus_blend_tags = ["China", "GDP"]
+focus_blend_tags = ["China", "Economy"]
 +++
 
 For years, economists have used alternative gauges — from electricity consumption to energy imports — to complement their understanding of China’s GDP data and check the picture painted by official reports.

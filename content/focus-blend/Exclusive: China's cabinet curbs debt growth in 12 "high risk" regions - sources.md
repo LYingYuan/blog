@@ -14,7 +14,7 @@ source = "Reuters"
 comment = ""
 [taxonomies]
 focus_blend_categories = ["News Highlights"]
-focus_blend_tags = ["China", "GDP"]
+focus_blend_tags = ["China", "Economy"]
 +++
 
 China's cabinet has restricted the ability of local governments in 12 heavily indebted regions to take on new debt and placed limits on what new state-funded projects they can launch, three sources with knowledge of the matter said.

@@ -14,7 +14,7 @@ source = "Bloomberg"
 comment = ""
 [taxonomies]
 focus_blend_categories = ["News Highlights"]
-focus_blend_tags = ["China", "GDP"]
+focus_blend_tags = ["China", "Economy"]
 +++
 
 Top officials have signaled they likely won’t roll out massive stimulus now due to concerns about creating systemic risks.

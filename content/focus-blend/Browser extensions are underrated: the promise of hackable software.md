@@ -22,6 +22,7 @@ Browsing the extension store feels more like going to a local flea market than g
 浏览扩展商店的感觉更像是去当地的跳蚤市场，而不是去超市。大公司开发的大型软件并不是唯一的出路。
 
 It’s not an accident that this openness emerged on the web platform.
+
 这种开放性出现在网络平台上并非偶然。
 
 Since the beginning of personal computing, there’s been a philosophical tradition that encourages using computers as an interactive medium where people contribute their own ideas and build their own tools—authorship over consumption. This idea is reflected in systems like Smalltalk, Hypercard, and more recently, Dynamicland.
