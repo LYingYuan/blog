@@ -13,7 +13,7 @@ template = "now.html"
 
 ## In Progress
 
-- 学习 [Getting Started with JavaScrip](https://frontendmasters.com/courses/getting-started-javascript-v2/)
+- 学习 [Getting Started with JavaScript](https://frontendmasters.com/courses/getting-started-javascript-v2/)
 
 ## Up Next
 
