@@ -17,4 +17,4 @@ aliases = []
 generate_feed = false
 +++
 
-categories = ["Tech", "Essays", "Reviews", "Other"]
+categories = ["Tech", "Essays", "Reviews", "Recipes", "Other"]
