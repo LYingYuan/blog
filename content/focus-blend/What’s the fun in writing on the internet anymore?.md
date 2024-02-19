@@ -10,8 +10,8 @@ aliases = []
 in_search_index = true
 [extra]
 original_url = "https://jamesshelley.com/blog/writing-on-the-internet.html"
-source = "Blog"
-comment = "HN / Personal Blog"
+source = "HN / Personal Blog"
+comment = ""
 [taxonomies]
 focus_blend_categories = ["Lifestyle Insights"]
 focus_blend_tags = ["Writing"]
