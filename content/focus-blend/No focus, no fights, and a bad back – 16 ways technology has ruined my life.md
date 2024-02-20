@@ -40,9 +40,9 @@ Weirdly, the virtual world is full of old-fashioned mechanical emulators – ani
 
 奇怪的是，虚拟世界里到处都是老式的机械模拟器--会发出咔哒声的动画按钮；可以用光标操纵的旋钮和滑块--而在实际的东西领域里，控制装置已经变成了黑色的平板，上面布满了难以捉摸的符号：一个新月；一个闪电；一个里面有一个 M 的圆圈，M 代表模式。
 
-I don’t know about you, but when I’m given advice about not writing passwords down, not using the same password over and over, and changing passwords regularly, I nod and say, “Of course”, but I think: “What, are you kidding?” I write all my passwords down, use as few as I can get away with and change them only when I’m forced to. To me, all the accepted wisdom about passwords ignores one major point: a password is of no use to me if I don’t know it.
+I don’t know about you, but when I’m given advice about not writing passwords down, not using the same password over and over, and changing passwords regularly, I nod and say, “Of course”, but I think: “What, are you kidding?” I write all my passwords down, use as few as I can get away with and change them only when I’m forced to. To me, all the accepted wisdom about passwords ignores one major point: **a password is of no use to me if I don’t know it.**
 
-我不知道你是怎么想的，但当有人建议我不要记下密码、不要重复使用同一个密码以及定期更改密码时，我会点头说 "当然"，但心里却在想："什么，你在开玩笑吗？我把所有密码都写下来，能少用就少用，只有在迫不得已的情况下才更改密码。对我来说，所有关于密码的公认智慧都忽略了一个要点：如果我不知道密码，密码对我来说就没有任何用处。
+我不知道你是怎么想的，但当有人建议我不要记下密码、不要重复使用同一个密码以及定期更改密码时，我会点头说 "当然"，但心里却在想："什么，你在开玩笑吗？我把所有密码都写下来，能少用就少用，只有在迫不得已的情况下才更改密码。对我来说，所有关于密码的公认智慧都忽略了一个要点：**如果我不知道密码，密码对我来说就没有任何用处。**
 
 One sometimes hears of inventions that seem designed to foster slavish dependency – self-tuning guitars, programmable cocktail-making machines – but we’re only really reminded of how much territory we’ve ceded to technology when it breaks down. It’s not just that I’ve lost the skills required; it’s that I can’t even recall the process. How did I used to find my way around, or figure out what to watch on TV, or pay for a takeaway? There must have been systems in place.
 
