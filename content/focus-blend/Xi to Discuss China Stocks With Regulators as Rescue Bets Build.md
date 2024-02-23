@@ -14,7 +14,7 @@ source = "Bloomberg"
 comment = ""
 [taxonomies]
 focus_blend_categories = ["News Highlights"]
-focus_blend_tags = ["China", "Stock"]
+focus_blend_tags = ["China", "Stocks"]
 +++
 
 As the slump extends, Xi has shown signs of becoming increasingly involved in the nation’s financial and economy policies, including making an unprecedented visit to the central bank late last year.

@@ -14,7 +14,7 @@ source = "Bloomberg"
 comment = ""
 [taxonomies]
 focus_blend_categories = ["News Highlights"]
-focus_blend_tags = ["China", "Stock"]
+focus_blend_tags = ["China", "Stocks"]
 +++
 
 The Hang Seng China Enterprises Index fell as much as 2.2%, edging closer to a level unseen since 2005 and making it one of Asia’s worst-performing key indexes. Chinese tech behemoths including Meituan and Tencent Holdings Ltd. led the declines.

@@ -14,7 +14,7 @@ source = "Yahoo!"
 comment = ""
 [taxonomies]
 focus_blend_categories = ["News Highlights"]
-focus_blend_tags = ["China", "Stock"]
+focus_blend_tags = ["China", "Stocks"]
 +++
 
 Short sellers borrow shares and sell them on the market, then buy them back at a later date and return them to their owners. If the share price falls, they make money as a result.
