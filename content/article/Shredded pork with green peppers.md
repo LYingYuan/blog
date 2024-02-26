@@ -1,8 +1,8 @@
 +++
-title = "青椒肉丝"
-description = "懒羊羊当大厨之青椒肉丝。"
+title = "Shredded pork with green peppers"
+description = "青椒肉丝。"
 date = 2024-02-18T16:08:38Z
-updated = 2024-02-18T16:08:38Z
+updated = 2024-02-26T16:02:23Z
 draft = false
 weight = 0
 aliases = []
@@ -15,32 +15,35 @@ tags = ["Recipes", "Life"]
 
 <!-- more -->
 
-懒羊羊当大厨之青椒肉丝。
+青椒肉丝。
 
 ---
 
-## 食材
+## Main Ingredients
 
 - 猪里脊
 - 青椒
+- 鸡蛋
+
+## Spice
+
 - 姜
 - 蒜
 - 泡椒
 - 豆瓣酱
 - 玉米淀粉
-- 鸡蛋
 - 胡椒粉
 - 糖
 - 盐
 - 生抽
 - 小苏打
 
-## 备菜
+## Preparation
 
 ### 玉米淀粉
 
 1. 加少量水
-2. 搅拌至可以拉丝
+2. 搅拌（可以拉丝）
 
 ### 猪里脊
 
@@ -71,7 +74,7 @@ tags = ["Recipes", "Life"]
 1. 剥皮
 2. 切碎
 
-## 炒制
+## Cooking
 
 1. 热锅至冒烟
 2. 冷油下锅里脊肉
