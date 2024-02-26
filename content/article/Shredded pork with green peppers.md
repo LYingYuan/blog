@@ -27,6 +27,7 @@ tags = ["Recipes", "Life"]
 
 ## Spice
 
+- 盐
 - 姜
 - 蒜
 - 泡椒
@@ -34,7 +35,6 @@ tags = ["Recipes", "Life"]
 - 玉米淀粉
 - 胡椒粉
 - 糖
-- 盐
 - 生抽
 - 小苏打
 
