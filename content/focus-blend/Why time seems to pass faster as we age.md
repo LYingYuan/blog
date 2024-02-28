@@ -37,7 +37,7 @@ As patterns in life start repeating themselves, the slices-of-time that you noti
 
 随着生活模式的不断重复，你所注意和记忆的时间片段也会变得越来越少，越来越粗糙。
 
-Naturally, if anyone asks where did time in your life go, you’d access your memory and find ** the majority of them relating to childhood, and very few from the recent times.**
+Naturally, if anyone asks where did time in your life go, you’d access your memory and find **the majority of them relating to childhood, and very few from the recent times.**
 
 自然，如果有人问你生活中的时间都去哪儿了，你会调取记忆，**发现大部分都与童年有关，很少有近期的**。
 
