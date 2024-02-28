@@ -13,10 +13,11 @@ template = "now.html"
 
 ## In Progress
 
-- 学习 [Getting Started with JavaScript](https://frontendmasters.com/courses/getting-started-javascript-v2/)
+- 学习抽组件
 
 ## Up Next
 
+- 学习 [Getting Started with JavaScript](https://frontendmasters.com/courses/getting-started-javascript-v2/)
 - 根据[设计指南](https://anthonyhobday.com/sideprojects/saferules/)调整博客样式
 - 学习 Vue3
 - 学习 TS
