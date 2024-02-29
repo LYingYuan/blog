@@ -2,7 +2,7 @@
 title = "Now"
 description = ""
 date = 2024-01-31T14:34:43Z
-updated = 2024-02-28T15:25:39Z
+updated = 2024-02-29T09:41:31Z
 weight = 0
 draft = false
 aliases = []
@@ -14,6 +14,7 @@ template = "now.html"
 ## In Progress
 
 - 学习抽组件
+- 学习 Three.js
 
 ## Up Next
 
