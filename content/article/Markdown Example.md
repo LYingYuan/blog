@@ -23,7 +23,7 @@ Here is [a link](http://example.com).
 
 Youtube
 
-{{ youtube(id="m2MIpDrF7Es") }}
+{{ youtube(id="m2MIpDrF7Es", title="微积分的本质") }}
 
 CodePen
 {{ codepen(id="MWxaraZ", user="lyingyuan", height="300") }}
