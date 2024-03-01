@@ -2,7 +2,7 @@
 title = "Now"
 description = ""
 date = 2024-01-31T14:34:43Z
-updated = 2024-03-01T10:52:53Z
+updated = 2024-03-01T17:28:40Z
 weight = 0
 draft = false
 aliases = []
@@ -15,7 +15,7 @@ template = "now.html"
 
 - 优化文章内容提取项目
   - 优化错误处理机制
-  - 利用 gpt-3-turbo 完成文章分类及摘要
+  - 利用 gpt-3-turbo 完成文章分类
 - 学习抽组件
 - 学习 Three.js
 - 学习 TS
@@ -32,5 +32,6 @@ template = "now.html"
 
 - 优化文章内容提取项目
   - ~~缓存 image~~ (2024.03.01)
+  - ~~利用 gpt-3-turbo 完成文章摘要~~ (2024.03.01)
 - ~~学成青椒肉丝~~ (2024.02.17)
 - ~~与挚友们见面~~ (2024.02.13)
