@@ -28,10 +28,10 @@ template = "now.html"
 - 学习微积分
 - 基于 LaTex 制作一份简历
 
-## Recently Completed(Within the Last Month)
+## Recently Completed(Within the Last Week)
 
+- 与好友见面（2024.03.04）
+- 学成酸辣土豆丝（2024.03.03）
 - 优化文章内容提取项目
   - ~~缓存 image~~ (2024.03.01)
   - ~~利用 gpt-3-turbo 完成文章摘要~~ (2024.03.01)
-- ~~学成青椒肉丝~~ (2024.02.17)
-- ~~与挚友们见面~~ (2024.02.13)
