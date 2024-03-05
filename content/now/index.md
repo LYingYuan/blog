@@ -19,6 +19,7 @@ template = "now.html"
 - 学习抽组件
 - 学习 Three.js
 - 学习 TS
+- 制作简历
 
 ## Up Next
 
@@ -26,7 +27,6 @@ template = "now.html"
 - 根据[设计指南](https://anthonyhobday.com/sideprojects/saferules/)调整博客样式
 - 学习 Vue3
 - 学习微积分
-- 基于 LaTex 制作一份简历
 
 ## Recently Completed(Within the Last Week)
 
