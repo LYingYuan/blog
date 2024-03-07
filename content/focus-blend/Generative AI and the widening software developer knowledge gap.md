@@ -14,7 +14,7 @@ source = "Lead Dev"
 comment = ""
 [taxonomies]
 focus_blend_categories = ["Tech Trends"]
-focus_blend_tags = ["AI"m "Developer"]
+focus_blend_tags = ["AI", "Developer"]
 +++
 
 Aircraft manufacturers have long been aware of the paradox of automation, where an overreliance on automation makes the human in the loop even more critical than before. Modern airline pilots increasingly rely on autopilot systems, but must be experienced enough to know when to intervene if something goes wrong. Blindly following the instruments in this scenario can lead to loss of life. But in a world where more and more basic operational tasks can be offloaded to an AI system, how can we expect the operators of these systems to know when things aren’t right?
