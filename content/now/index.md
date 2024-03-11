@@ -2,7 +2,7 @@
 title = "Now"
 description = ""
 date = 2024-01-31T14:34:43Z
-updated = 2024-03-08T08:37:32Z
+updated = 2024-03-11T16:08:49Z
 weight = 0
 draft = false
 aliases = []
@@ -30,5 +30,3 @@ template = "now.html"
 ## Recently Completed(Within the Last Week)
 
 - 制作[简历](https://cv.elowentao.com/)（2024.03.07）
-- 与好友见面（2024.03.04）
-- 学成酸辣土豆丝（2024.03.03）
