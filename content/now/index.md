@@ -2,7 +2,7 @@
 title = "Now"
 description = ""
 date = 2024-01-31T14:34:43Z
-updated = 2024-03-26T21:32:55Z
+updated = 2024-03-28T11:05:08Z
 weight = 0
 draft = false
 aliases = []
@@ -15,6 +15,7 @@ template = "now.html"
 
 - 优化文章总结
 - 优化数据新闻后端
+- 优化博客样式（修改为 BEM 命名）
 
 ## Up Next
 
