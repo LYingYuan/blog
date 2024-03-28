@@ -2,7 +2,7 @@
 title = "About"
 description = ""
 date = 2024-01-22T14:39:11Z
-updated = 2024-03-08T08:39:23Z
+updated = 2024-03-28T11:02:33Z
 weight = 0
 draft = false
 aliases = []
@@ -15,7 +15,7 @@ template = "about.html"
 
 ---
 
-我是 [Elowen](https://cv.elowentao.com/)，目前是一名初级前端开发工程师，喜欢游戏、高达。
+我是 [Elowen](https://cv.elowentao.com/)(你可以在[这里](https://projects.elowentao.com/)看到我写的小项目)，目前是一名初级前端开发工程师，喜欢游戏、高达。
 
 建立这个博客的初衷是想在浩瀚无垠的互联网中发出些声音、留下点东西。博客是由 Zola 构建并通过 Cloudflare Page 托管的静态网站，存放在 [Github Repo](https://github.com/LYingYuan/blog)。
 
