@@ -13,9 +13,8 @@ template = "now.html"
 
 ## In Progress
 
-- 正在做一个总结文章的项目解决自身的痛点
-  - [Extension](https://github.com/LYingYuan/article-summary-extension)
-  - [Node](https://github.com/LYingYuan/article-summary)
+- 优化文章总结
+- 优化数据新闻后端
 
 ## Up Next
 
@@ -27,7 +26,9 @@ template = "now.html"
 - 学习 Vue3
 - 学习微积分
 
-## Recently Completed(Within the Last Week)
+## Recently Completed(Within the Last Month)
 
+- 初步完成文章总结后端（2024.03.28）
+- 初步完成文章总结 Chrome Extension（2024.03.27）
 - 与好友见面 (2024.03.24)
 - 学习 CSS Fundamental (2024.03.22)
