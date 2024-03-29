@@ -2,7 +2,7 @@
 title = "Now"
 description = ""
 date = 2024-01-31T14:34:43Z
-updated = 2024-03-28T16:49:20Z
+updated = 2024-03-29T09:00:30Z
 weight = 0
 draft = false
 aliases = []
@@ -13,12 +13,12 @@ template = "now.html"
 
 ## In Progress
 
-- 优化文章总结
-- 优化数据新闻后端
-- 优化博客样式（修改为 BEM 命名）
+- 学习 Vue 3
 
 ## Up Next
 
+- 优化文章总结
+- 优化博客样式（修改为 BEM 命名）
 - 为服务器制作自动化脚本
   - 自动备份数据
     - Plex
@@ -26,6 +26,7 @@ template = "now.html"
     - Plex
     - article-summary
     - news-article-parse
+- 重构数据新闻后端
 - 优化文章内容提取项目
   - 优化错误处理机制
   - 利用 gpt-3-turbo 完成文章分类
