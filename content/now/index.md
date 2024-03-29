@@ -2,7 +2,7 @@
 title = "Now"
 description = ""
 date = 2024-01-31T14:34:43Z
-updated = 2024-03-28T11:05:08Z
+updated = 2024-03-28T16:49:20Z
 weight = 0
 draft = false
 aliases = []
@@ -19,12 +19,16 @@ template = "now.html"
 
 ## Up Next
 
+- 为服务器制作自动化脚本
+  - 自动备份数据
+    - Plex
+  - 自动更新软件
+    - Plex
+    - article-summary
+    - news-article-parse
 - 优化文章内容提取项目
   - 优化错误处理机制
   - 利用 gpt-3-turbo 完成文章分类
-- 学习 Three.js
-- 学习 TS
-- 学习 Vue3
 - 学习微积分
 
 ## Recently Completed(Within the Last Month)
