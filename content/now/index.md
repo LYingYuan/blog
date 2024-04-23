@@ -2,7 +2,7 @@
 title = "Now"
 description = ""
 date = 2024-01-31T14:34:43Z
-updated = 2024-03-29T09:00:30Z
+updated = 2024-04-23T15:08:59Z
 weight = 0
 draft = false
 aliases = []
@@ -13,7 +13,7 @@ template = "now.html"
 
 ## In Progress
 
-- 学习 Vue 3
+- 疯狂打工中，没有时间更新博客。
 
 ## Up Next
 
