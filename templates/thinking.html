@@ -1,14 +1,16 @@
 {% extends "section.html" %} {% block content %}
 <main class="main">
-  <header><h1>{{ section.title }}</h1></header>
+  <header class="main__header">
+    <h1 class="main__title">{{ section.title }}</h1>
+  </header>
   {% set all_pages = section.pages %}
   <ol class="cards">
     {% for page in all_pages %}
     <li class="card">
       <article class="profile thinking">
-        {{ page.content | safe }}
-        <footer>
-          <time class="last-updated">Last Updated: {{ page.updated | date(format="%Y-%m-%d") }}</time>
+        <div class="thinking__content">{{ page.content | safe }}</div>
+        <footer class="thinking__footer">
+          <time class="last-updated" datetime="{{ page.updated | date(format='%Y-%m-%d') }}">Last Updated: {{ page.updated | date(format="%Y-%m-%d") }}</time>
         </footer>
       </article>
     </li>

@@ -14,7 +14,7 @@ in_search_index = true
 render = true
 transparent = false
 aliases = []
-generate_feed = false
+generate_feeds = false
 +++
 
 categories = ["Tech", "Essays", "Reviews", "Recipes", "Other"]

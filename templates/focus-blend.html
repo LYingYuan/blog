@@ -1,130 +1,153 @@
 {% extends "section.html" %} {% block content %}
 <main class="main">
-  <header><h1>Focus Blend</h1></header>
-  <details class="recent" open>
-    <summary><h2 class="no-margin">最近关注：</h2></summary>
-    {% set all_pages = section.pages %} {% set recent_pages = all_pages | sort(attribute="date") | reverse %}
-    <ol class="cards">
-      {% for page in recent_pages | slice(start=0, end=10) %}
-      <li class="card">
-        <blockquote class="profile">
-          <header>
-            <h4 class="no-margin">{{ page.title }}</h4>
-            <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
-          </header>
-          <p>{{ page.content | safe }}</p>
-          <footer class="source">
-            <div>来源：<cite>{{ page.extra.source }}</cite></div>
-            <a href="{{ page.extra.original_url }}" target="_blank" rel="noopener noreferrer">阅读原文>>></a>
-          </footer>
-        </blockquote>
-      </li>
-      {% endfor %}
-    </ol>
-  </details>
+  <header class="main__header">
+    <h1 class="main__title">Focus Blend</h1>
+  </header>
+  <section class="recent">
+    <details open>
+      <summary><h2 class="no-margin">最近关注：</h2></summary>
+      {% set all_pages = section.pages %} {% set recent_pages = all_pages | sort(attribute="date") | reverse %}
+      <ol class="cards">
+        {% for page in recent_pages | slice(start=0, end=10) %}
+        <li class="card">
+          <blockquote class="profile">
+            <header class="profile__header">
+              <h4 class="profile__title no-margin">{{ page.title }}</h4>
+              <time datetime="{{ page.date | date(format='%Y-%m-%d') }}">{{ page.date | date(format="%Y-%m-%d") }}</time>
+            </header>
+            <p class="profile__content">{{ page.content | safe }}</p>
+            <footer class="source">
+              <div class="source__info">来源：{{ page.extra.source }}</div>
+              <a href="{{ page.extra.original_url }}" target="_blank" rel="noopener noreferrer" class="source__link">阅读原文>>></a>
+            </footer>
+          </blockquote>
+        </li>
+        {% endfor %}
+      </ol>
+    </details>
+  </section>
 
-  <details open>
-    <summary><h2 class="no-margin">按<span>分类</span>查看：</h2></summary>
-    {% set categories = get_taxonomy(kind="focus_blend_categories") %}
-    <ol class="details-list">
-      {% for category in categories.items %}
-      <li>
-        <details>
-          <summary><h3 class="no-margin">{{ category.name }}({{ category.pages | length }})</h3></summary>
-          <ol class="cards">
-            {% for page in category.pages %}
-            <li class="card">
-              <blockquote class="profile">
-                <header>
-                  <h4 class="no-margin">{{ page.title }}</h4>
-                  <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
-                </header>
-                <p>{{ page.content | safe }}</p>
-                <footer class="source">
-                  <div>来源：<cite>{{ page.extra.source }}</cite></div>
-                  <a href="{{ page.extra.original_url }}" target="_blank" rel="noopener noreferrer">阅读原文>>></a>
-                </footer>
-              </blockquote>
-            </li>
-            {% endfor %}
-          </ol>
-        </details>
-      </li>
-      {% endfor %}
-    </ol>
-  </details>
+  <section class="categories">
+    <details open>
+      <summary>
+        <h2 class="no-margin">按<span class="highlight">分类</span>查看：</h2>
+      </summary>
+      {% set categories = get_taxonomy(kind="focus_blend_categories") %}
+      <ol class="details-list">
+        {% for category in categories.items %}
+        <li class="details-list__item">
+          <details>
+            <summary>
+              <h3 class="no-margin">{{ category.name }}<span class="item-count">({{ category.pages | length }})</span></h3>
+            </summary>
+            <ol class="cards">
+              {% for page in category.pages %}
+              <li class="card">
+                <blockquote class="profile">
+                  <header class="profile__header">
+                    <h4 class="profile__title no-margin">{{ page.title }}</h4>
+                    <time datetime="{{ page.date | date(format='%Y-%m-%d') }}">{{ page.date | date(format="%Y-%m-%d") }}</time>
+                  </header>
+                  <p class="profile__content">{{ page.content | safe }}</p>
+                  <footer class="source">
+                    <div class="source__info">来源：{{ page.extra.source }}</div>
+                    <a href="{{ page.extra.original_url }}" target="_blank" rel="noopener noreferrer" class="source__link">阅读原文>>></a>
+                  </footer>
+                </blockquote>
+              </li>
+              {% endfor %}
+            </ol>
+          </details>
+        </li>
+        {% endfor %}
+      </ol>
+    </details>
+  </section>
 
-  <details>
-    <summary><h2 class="no-margin">按<span>标签</span>查看：</h2></summary>
-    {% set tags = get_taxonomy(kind="focus_blend_tags") %}
-    <ol class="details-list">
-      {% for tag in tags.items %}
-      <li>
-        <details>
-          <summary><h3 class="no-margin">{{ tag.name }}({{ tag.pages | length }})</h3></summary>
-          <ol class="cards">
-            {% for page in tag.pages %}
-            <li class="card">
-              <blockquote class="profile">
-                <header>
-                  <h4 class="no-margin">{{ page.title }}</h4>
-                  <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
-                </header>
-                <p>{{ page.content | safe }}</p>
-                <footer class="source">
-                  <div>来源：<cite>{{ page.extra.source }}</cite></div>
-                  <a href="{{ page.extra.original_url }}" target="_blank" rel="noopener noreferrer">阅读原文>>></a>
-                </footer>
-              </blockquote>
-            </li>
-            {% endfor %}
-          </ol>
-        </details>
-      </li>
-      {% endfor %}
-    </ol>
-  </details>
+  <section class="tags">
+    <details>
+      <summary>
+        <h2 class="no-margin">按<span class="highlight">标签</span>查看：</h2>
+      </summary>
+      {% set tags = get_taxonomy(kind="focus_blend_tags") %}
+      <ol class="details-list">
+        {% for tag in tags.items %}
+        <li class="details-list__item">
+          <details>
+            <summary>
+              <h3 class="no-margin">{{ tag.name }}<span class="item-count">({{ tag.pages | length }})</span></h3>
+            </summary>
+            <ol class="cards">
+              {% for page in tag.pages %}
+              <li class="card">
+                <blockquote class="profile">
+                  <header class="profile__header">
+                    <h4 class="profile__title no-margin">{{ page.title }}</h4>
+                    <time datetime="{{ page.date | date(format='%Y-%m-%d') }}">{{ page.date | date(format="%Y-%m-%d") }}</time>
+                  </header>
+                  <p class="profile__content">{{ page.content | safe }}</p>
+                  <footer class="source">
+                    <div class="source__info">来源：{{ page.extra.source }}</div>
+                    <a href="{{ page.extra.original_url }}" target="_blank" rel="noopener noreferrer" class="source__link">阅读原文>>></a>
+                  </footer>
+                </blockquote>
+              </li>
+              {% endfor %}
+            </ol>
+          </details>
+        </li>
+        {% endfor %}
+      </ol>
+    </details>
+  </section>
 
-  <details>
-    <summary><h2 class="no-margin">按<span>归档</span>查看：</h2></summary>
-    {% set all_pages = section.pages %}
-    <ol class="details-list">
-      {% for year, year_pages in section.pages | reverse | group_by(attribute="year") %}
-      <li>
-        <details>
-          <summary><h3 class="no-margin">{{ year }}({{ year_pages | length }})</h3></summary>
-          <ol class="details-list">
-            {% for month, pages in year_pages| group_by(attribute="month") %}
-            <li>
-              <details>
-                {% set months = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"] %}
-                <summary><h4 class="no-margin">{{ months[month] }}({{ pages | length }})</h4></summary>
-                <ol class="cards">
-                  {% for page in pages %}
-                  <li class="card">
-                    <blockquote class="profile">
-                      <header>
-                        <h4 class="no-margin">{{ page.title }}</h4>
-                        <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
-                      </header>
-                      <p>{{ page.content | safe }}</p>
-                      <footer class="source">
-                        <div>来源：<cite>{{ page.extra.source }}</cite></div>
-                        <a href="{{ page.extra.original_url }}" target="_blank" rel="noopener noreferrer">阅读原文>>></a>
-                      </footer>
-                    </blockquote>
-                  </li>
-                  {% endfor %}
-                </ol>
-              </details>
-            </li>
-            {% endfor %}
-          </ol>
-        </details>
-      </li>
-      {% endfor %}
-    </ol>
-  </details>
+  <section class="archive">
+    <details>
+      <summary>
+        <h2 class="no-margin">按<span class="highlight">归档</span>查看：</h2>
+      </summary>
+      {% set all_pages = section.pages %}
+      <ol class="details-list">
+        {% for year, year_pages in section.pages | reverse | group_by(attribute="year") %}
+        <li class="details-list__item">
+          <details>
+            <summary>
+              <h3 class="no-margin">{{ year }}<span class="item-count">({{ year_pages | length }})</span></h3>
+            </summary>
+            <ol class="details-list">
+              {% for month, pages in year_pages | group_by(attribute="month") %}
+              <li class="details-list__item">
+                <details>
+                  {% set months = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"] %}
+                  <summary>
+                    <h4 class="no-margin">{{ months[month] }}<span class="item-count">({{ pages | length }})</span></h4>
+                  </summary>
+                  <ol class="cards">
+                    {% for page in pages %}
+                    <li class="card">
+                      <blockquote class="profile">
+                        <header class="profile__header">
+                          <h4 class="profile__title no-margin">{{ page.title }}</h4>
+                          <time datetime="{{ page.date | date(format='%Y-%m-%d') }}">{{ page.date | date(format="%Y-%m-%d") }}</time>
+                        </header>
+                        <p class="profile__content">{{ page.content | safe }}</p>
+                        <footer class="source">
+                          <div class="source__info">来源：{{ page.extra.source }}</div>
+                          <a href="{{ page.extra.original_url }}" target="_blank" rel="noopener noreferrer" class="source__link">阅读原文>>></a>
+                        </footer>
+                      </blockquote>
+                    </li>
+                    {% endfor %}
+                  </ol>
+                </details>
+              </li>
+              {% endfor %}
+            </ol>
+          </details>
+        </li>
+        {% endfor %}
+      </ol>
+    </details>
+  </section>
 </main>
-
 {% endblock content %}

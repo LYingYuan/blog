@@ -5,40 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="{% block description %}{{ section.description | default(value=config.description) }}{% endblock description %}" />
     <title>{% block title %}{{ config.title }}{% endblock title %}</title>
-    <link rel="shortcut icon" href="{{ get_url(path='Elowen-logos_transparent.png', cachebust=true) }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ get_url(path='Elowen-logos_transparent.png', cachebust=true) }}" type="image/x-icon" />
     <link rel="stylesheet" href="{{ get_url(path='style.css', cachebust=true) }}" />
-    <!-- TODO RSS -->
+    <!-- TODO: Add RSS link -->
   </head>
   <body>
     {% block header %}
-    <header>
+    <header class="header">
       <nav class="nav">
-        <ul>
-          <li><a href="/article">Article</a></li>
-          <li><a href="/thinking">Thinking</a></li>
-          <li><a href="/focus-blend">Focus Blend</a></li>
-          <li><a href="/now">Now</a></li>
-          <li><a href="/about">About</a></li>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="/article" class="nav__link">Article</a></li>
+          <li class="nav__item"><a href="/thinking" class="nav__link">Thinking</a></li>
+          <li class="nav__item"><a href="/focus-blend" class="nav__link">Focus Blend</a></li>
+          <li class="nav__item"><a href="/now" class="nav__link">Now</a></li>
+          <li class="nav__item"><a href="/about" class="nav__link">About</a></li>
         </ul>
       </nav>
     </header>
-    {% endblock header %}
-
-    {% block content %}
+    {% endblock header %} {% block content %}
     <main class="main">
-      <header><h1>{{ config.title }}</h1></header>
+      <header class="main__header">
+        <h1 class="main__title">{{ config.title }}</h1>
+      </header>
     </main>
     {% endblock content %}
 
     <footer class="footer">
-      <div>
-        <h2>Elowen</h2>
-        <ul>
+      <div class="footer__content">
+        <h2 class="footer__heading">Elowen</h2>
+        <ul class="footer__list">
           {% for link in config.extra.links %}
-          <li><a href="{{ link.href }}">{{ link.title }}</a></li>
+          <li class="footer__item"><a href="{{ link.href }}" class="footer__link">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
-        <p><small>&copy; 2024 Elowen. All rights reserved.</small></p>
+        <p class="footer__copyright"><small>&copy; 2024 Elowen. All rights reserved.</small></p>
       </div>
     </footer>
   </body>

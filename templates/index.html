@@ -1,8 +1,9 @@
-{% extends "base.html" %} {% block title %} {{ config.title }} | {{ section.title}} {% endblock title %} {% block description %}{{ section.description | default(value=config.description) }}{% endblock
+{% extends "base.html" %} {% block title %}{{ config.title }} | {{ section.title }}{% endblock title %} {% block description %}{{ section.description | default(value=config.description) }}{% endblock
 description %} {% block content %}
 <main class="main center">
-  <header><h1>{{ section.title }}</h1></header>
-  {{ section.content | safe}}
+  <header class="main__header">
+    <h1 class="main__title">{{ section.title }}</h1>
+  </header>
+  <article class="main__content">{{ section.content | safe }}</article>
 </main>
-
 {% endblock content %}
